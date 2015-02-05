@@ -1,7 +1,6 @@
 # Em-hebcal
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Proof of concept - integrating [Ember.js framework](http://www.emberjs.com/) (and specifically [ember-cli](http://www.ember-cli.com/)) with [hebcal](https://github.com/hebcal/hebcal-js)
 
 ## Prerequisites
 
@@ -15,33 +14,16 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+* After installing above...
+* `$mkdir ember-hebcal`
+* `$cd ember-hebcal`
+* `$git clone https://github.com/kalmanh/em-hebcal.git .`
+* `$ember install`
 
 ## Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
